@@ -1,0 +1,23 @@
+body{
+    text-align:center;
+background-color: pink;
+width: 700px;
+margin: 0 auto;
+}
+.main-headline a{
+    color: white;
+    text-decoration:none;
+}
+.main-headline a:hover{
+    color: black;
+}
+header{
+    color: white;
+}
+main p{
+    color: white;
+    font-size: 26px
+}
+ol{
+    text-align: left;
+}
