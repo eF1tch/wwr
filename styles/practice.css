@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body{
     font-size: 30px;
     padding: 0;
@@ -6,14 +7,22 @@ body{
 img{
     width: 10%;
     border: 5px solid green;
-    max-width: 1400px
+    max-width: 1400px;
+    border-radius: 15px;
+    /*or use 50% for the border radius to make a circle*/
+    padding: 30px;
+    background-color: lightblue;
+    box-sizing: border-box;
 }
 h1, p{
-    font-family:'Courier New', Courier;
+    font-family: Roberto, Helvetica, sans-serif;
     border: 5px solid blue;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 100px;
+    margin: 50px;
+    text-align: right;
+    /*text-align will be on the ICE challenge*/
+    margin-right: 250px;
 }
 #image-box{
     text-align: center;
@@ -29,4 +38,11 @@ div p{
 }
 .social a{
     text-decoration: none;
+    /*This is what effects if the text is underlined*/
+}
+ol{
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
