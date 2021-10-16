@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Josefin+Slab:ital@1&display=swap');
 #content{
 max-width: 1600px;
 margin: 0 auto;
@@ -5,11 +6,14 @@ margin: 0 auto;
 }
 nav a{
     text-align: center;
-    color: #093a3e;
+    color: #ccc4b7;
     text-decoration: none;
+    font-family: "josefin sans";
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family:"josefin sans";
 }
 .button-box{
     text-align: center;
@@ -17,23 +21,36 @@ nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
+/* Do I need both main section and main section img? or are they the same?*/
 #background{
     height: 725px;
 }
 body {
     background-color: #093a3e;
+    font-family:"josefin sans";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #91eff3;
+    background-color: #3a6061;
 }
 nav a:hover{
-    Background-color: #b6f5f7;
+    Background-color: #3a6061;
     color: #093a3e;
 }
 .book, .join{
     background-color: #093a3e;
     color: #ccc4b7;
     text-decoration: none;
+    font-family:"Josefin sans";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #093a3e;
@@ -41,29 +58,40 @@ nav a:hover{
 
 }
 #background{
-    background-color: #91eff3
+    background-color: #3a6061;
 }
 .msg{
     background-color: #093a3e;
+    line-height: 1.5em;
     color:#ccc4b7;
+    padding: 35px;
 }
 footer{
     background-color: #093a3e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:#ccc4b7;
+    font-family:"josefin sans";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:#ccc4b7;
 }
 .msg p{
     color: #ccc4b7;
+    font-family:"josefin sans";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg h2{
     color: #ccc4b7;
 }
 footer h3{
     color: #ccc4b7;
+    font-family:"josefin sans";
 }
 footer a{
     color: #ccc4b7;
@@ -75,7 +103,27 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+main h2{
+    color:#ccc4b7;
+    font-family:"Josefin sans";
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    Padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-image{
+    border:10px solid black;
 }
