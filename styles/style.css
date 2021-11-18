@@ -24,14 +24,14 @@ main section{
 main section img{
     box-sizing: border-box;
 }
-/* Do I need both main section and main section img? or are they the same?*/
 #background{
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 body {
-    background-color: #093a3e;
+    background-color: #3a6061;
+    background-color: ;
     font-family:"josefin sans";
     font-size: 22px;
     margin: 0;
@@ -73,7 +73,7 @@ nav a:hover{
     grid-row:6/7;
 }
 footer{
-    background-color: #093a3e;
+    background-color: #3a6061;
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -179,4 +179,61 @@ main {
 }
 .card-img, .mountain {
     width: 100%;
+}
+/* river css */
+.active {
+    color: #d9c2a3;
+    background-color: black; 
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 3fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 2em;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.rivers-title {
+    font-family: 'josefe sans';
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ccc4b7;
+    margin: 100px 0;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    grid-column: 2/8;
+    grid-row: 1/2;
+    justify-self: stretch;
+    text-align: center;
+}
+.river1-img {
+    grid-column: 2/5;
+    grid-row: 2/5;
+    width: 100%;
+    box-shadow: 5px 5px 10px #093a3e;
+}
+.river1-text {
+    grid-column: 4/7;
+    grid-row: 3/4;
+    color:#ccc4b7;
+}
+.river2-img {
+    grid-column: 5/8;
+    grid-row: 6/9;
+    width: 100%;
+    box-shadow: 5px 5px 10px #093a3e;
+}
+.river2-text {
+    grid-column: 3/6;
+    grid-row: 7/8;
+    color: #ccc4b7;
+}
+.river1-text, .river2-text {
+    background-color: #093a3e;
+    overflow-y: scroll; /* ADDED */
+    height: auto; /* ADDED */
+    height: 250px;
+    padding: 35px;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #093a3e;
 }
