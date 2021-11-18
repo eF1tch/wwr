@@ -6,8 +6,7 @@ margin: 0 auto;
 }
 nav a{
     text-align: center;
-    /*color: #ccc4b7;*/
-    color: hotpink;
+    color: #ccc4b7;
     text-decoration: none;
     font-family: "josefin sans";
     padding: 35px;
